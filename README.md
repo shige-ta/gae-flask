@@ -1,10 +1,20 @@
 # gae-flask
 Google app engine flask RESTAPIサンプル
 
+gcloudコマンドインストール
+https://cloud.google.com/sdk/docs/install?hl=JA
+
 ```bash
 gcloud init
+```
+googleアカウント指定
+GCPプロジェクト指定
+タイムゾーン指定(asia-northeast1)
+
+```bash
 gcloud app deploy
 ```
+ドメイン情報等確認 y
 
 
 ```bash
