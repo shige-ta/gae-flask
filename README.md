@@ -1,6 +1,11 @@
 # gae-flask
 Google app engine flask RESTAPIサンプル
 
+```bash
+mkdir lib
+pip3 install -t lib -r requirements.txt
+```
+
 gcloudコマンドインストール
 https://cloud.google.com/sdk/docs/install?hl=JA
 
